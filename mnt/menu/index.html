@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.png" type="image/x-icon">.
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Wififood</title>
+</head>
+<style>
+    p{
+        text-align: justify;
+    }
+</style>
+<body>
+    <div class="container-fluid">
+        <h1 class="text-center">INSTRUCCIONES DE USO</h1>
+        <div class="container-fluid">
+            <h2 class="text-justify">Preparacion USB</h2>
+            <div class="container-fluid">
+                <p class="text-justify">
+                    El dispositivo USB sera el encargado de distribuir
+                    la información, para ello es necesario contar con
+                    los archivos pertinentes para poder visualizarlos
+                    en pantalla, estos son:
+                </p>
+                <ul>
+                    <li>
+                        <strong class="text-success">404.html</strong>
+                        <p>
+                            Este es el archivo mas importante; en el contendra la redireccion al
+                            <strong>index.html</strong>
+                            <br><br>
+                            Su contenido debe ser el siguiente:
+                            <strong>
+                                <p><pre><code class="text-primary">
+&lt;head&gt;
+    &lt;meta http-equiv="Refresh" content="0; URL=http://www.pagina.com"&gt;
+&lt;head&gt;
+                            </code></pre></p>
+                            </strong>
+                            Es importante aclarar que este contenido debe estar en las primeras lineas del archivo,
+                            y que se puede cambiar la URL a cualquiera, pero que se incluya el protocolo <strong
+                                class="text-primary">http://</strong>,
+                            puede ser reemplazada, por ejemplo, por <strong
+                                class="text-primary">http://www.otrapagina.com</strong>.
+                        </p>
+                    </li>
+                    <li>
+                        <strong class="text-success">index.html:</strong>
+                        <p>
+                            Sera el encargado de mostrar la informacion que desea,
+                            por defecto viene acompañado con un <strong>script</strong>
+                            el cual se encarga de mostrar las imagenes encontradas en
+                            la carpeta <strong class="text-primary">pages</strong>
+                            y con el siguiente formato, modificable en el <strong>script.js</strong>:
+                        <p class="text-center text-primary">
+                            <strong>img</strong>+(numero de la imagen)+<strong>.jpg</strong>
+                        </p>
+
+                        <br><br>
+                        Contenido del <strong>script.js</strong>:
+                        <strong>
+                            <p>
+                            <pre>
+                                <code class="text-primary">
+const DIRECTORIO = "pages";
+const NOMBRE = "img";
+const EXTENSION = ".jpg";
+
+const showImages = async function () {
+    let numImage = 1;
+    while (true) {
+        const response = await fetch(DIRECTORIO + "/" + NOMBRE + numImage + EXTENSION);
+        if (!response.ok) break;
+        const dataImage = await response.blob();
+        if (!dataImage) break;
+        const objectURL = URL.createObjectURL(dataImage);
+        const image = document.createElement("img");
+        image.setAttribute("src",objectURL);
+        document.getElementById("images").appendChild(image)
+        numImage++;
+    }
+}
+
+window.onload = showImages;     
+                                </code>
+                            </pre>
+                            </p>
+                        </strong>
+                        <br>
+                        Contenido del <strong>index.html</strong>:
+                        <strong>
+                            <p>
+                            <pre>
+                                <code class="text-primary">
+&lt;html lang="es"&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8" /&gt;
+    &lt;link rel="icon" href="/favicon.png"&gt;
+    &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+    &lt;meta name="theme-color" content="#000000" /&gt;
+    &lt;title&gt;Menu&lt;/title&gt;
+    &lt;style type="text/css"&gt;
+        body{
+            padding:0;
+            margin: 0;
+        }
+        img {
+            width: 100%;
+            object-fit: contain;
+        }
+&lt;/head&gt;  
+&lt;body&gt;
+    &lt;div id="images"&gt;&lt;/div&gt;
+    &lt;script type="text/javascript" src="script.js"&gt;&lt;/script&gt;
+&lt;body&gt;      
+                                </code>
+                            </pre>
+                            </p>
+                        </strong>
+
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
