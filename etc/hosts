@@ -4,7 +4,7 @@
 ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 
-#Estos son los hosts para activar el portal cautivo
+#Estos son los hosts para activar el portal cautivo sin internet
 172.217.30.174 clients3.google.com
 142.250.219.195 www.gstatic.com
 172.217.28.227 connectivitycheck.gstatic.com
