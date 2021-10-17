@@ -1,4 +1,4 @@
-446331bfc7da1eec8dec6b4c9071adc660e857facb8c90a811ced6f669a9a245 *openwrt-21.02.0-ramips-mt76x8-tplink_tl-mr3020-v3-squashfs-sysupgrade.bin
-f37ae0def6fc12282d90637e1e5e1c080ce30ca3e3d2209292dc1491f6f26831 *openwrt-21.02.0-ramips-mt76x8-tplink_tl-mr3020-v3-squashfs-tftp-recovery.bin
+b537b5a72589629ad5a3dab9028fb174331df7a9fe33d2a5585bb314afa7743f *openwrt-21.02.0-ramips-mt76x8-tplink_tl-mr3020-v3-squashfs-sysupgrade.bin
+8478d3f775aef3481f7fd5e5235a8138d3b0309af601bef55f27300689c556ac *openwrt-21.02.0-ramips-mt76x8-tplink_tl-mr3020-v3-squashfs-tftp-recovery.bin
 985532e1ba2661ff616806584443cec62c2734f8e89decfa6d9eaf8f360aae69 *openwrt-21.02.0-ramips-mt76x8-tplink_tl-mr3020-v3.manifest
-8aaad4650c9b27c3d661cfb91a4ba3be70b31b699cf56c48375cecfd2b4b640f *profiles.json
+31e2af865f759296adc4b97af6426df1a5453e96929ccb536e613713fee56adb *profiles.json
