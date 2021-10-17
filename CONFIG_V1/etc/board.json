@@ -1,0 +1,33 @@
+{
+	"model": {
+		"id": "tl-mr3020",
+		"name": "TP-Link TL-MR3020 v1"
+	},
+	"led": {
+		"usb": {
+			"name": "USB",
+			"type": "usb",
+			"sysfs": "tp-link:green:3g",
+			"device": "1-1"
+		},
+		"wlan": {
+			"name": "WLAN",
+			"type": "trigger",
+			"sysfs": "tp-link:green:wlan",
+			"trigger": "phy0tpt"
+		},
+		"lan": {
+			"name": "LAN",
+			"type": "netdev",
+			"sysfs": "tp-link:green:lan",
+			"device": "eth0",
+			"mode": "link tx rx"
+		}
+	},
+	"network": {
+		"lan": {
+			"ifname": "eth0",
+			"protocol": "static"
+		}
+	}
+}
