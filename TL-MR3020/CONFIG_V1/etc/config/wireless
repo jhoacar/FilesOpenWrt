@@ -10,18 +10,19 @@ config wifi-device 'radio0'
 
 config wifi-iface
 	option network 'wwan'
-	option ssid 'Breaking Rules 2.4GHz'
+	option ssid 'Prueba'
 	option encryption 'psk2'
 	option device 'radio0'
 	option mode 'sta'
 	option bssid '98:77:E7:37:D3:68'
-	option key 'Jhoancarrero11'
+	option key 'captivefire'
+	option skip_inactivity_poll '1'
 
 config wifi-iface
 	option device 'radio0'
 	option mode 'ap'
-	option ssid 'Menu'
+	option ssid '🎩 Goodiamo - Tulum Resto Bar'
 	option network 'lan'
 	option encryption 'psk2'
-	option key 'wififood'
+	option key 'captivefire'
 
