@@ -3,8 +3,6 @@ block-mount - 2018-04-16-6609e98a-1
 busybox - 1.25.1-4
 dnsmasq - 2.78-6
 dropbear - 2017.75-5
-e2fsprogs - 1.43.3-2
-fdisk - 2.29.2-1
 firewall - 2017-05-27-a4d98aea-1
 fstools - 2018-04-16-6609e98a-1
 fwtool - 1
@@ -21,7 +19,6 @@ kmod-ath9k-common - 4.4.182+2017-01-31-15
 kmod-cfg80211 - 4.4.182+2017-01-31-15
 kmod-crypto-crc32c - 4.4.182-1
 kmod-crypto-hash - 4.4.182-1
-kmod-fs-exfat - 4.4.182+2017-01-03-8d291f525ce6d88fe0d8b11b86fd5c2e900401d3-1
 kmod-fs-ext4 - 4.4.182-1
 kmod-gpio-button-hotplug - 4.4.182-2
 kmod-ip6tables - 4.4.182-1
@@ -49,11 +46,8 @@ kmod-usb-storage - 4.4.182-1
 kmod-usb-uhci - 4.4.182-1
 kmod-usb2 - 4.4.182-1
 lede-keyring - 2017-01-20-a50b7529-1
-libblkid - 2.29.2-1
 libblobmsg-json - 2018-11-16-4382c76d-1
 libc - 1.1.16-1
-libext2fs - 1.43.3-2
-libfdisk - 2.29.2-1
 libgcc - 5.4.0-1
 libip4tc - 1.4.21-3
 libip6tc - 1.4.21-3
@@ -61,13 +55,10 @@ libjson-c - 0.12.1-1
 libjson-script - 2018-11-16-4382c76d-1
 libnl-tiny - 0.1-5
 libpthread - 1.1.16-1
-librt - 1.1.16-1
-libsmartcols - 2.29.2-1
 libubox - 2018-11-16-4382c76d-1
 libubus - 2017-02-18-34c6e818-1
 libuci - 2018-01-01-141b64ef-1
 libuclient - 2018-11-24-3ba74ebc-1
-libuuid - 2.29.2-1
 libxtables - 1.4.21-3
 logd - 2017-03-10-16f7e161-1
 mtd - 23.1
