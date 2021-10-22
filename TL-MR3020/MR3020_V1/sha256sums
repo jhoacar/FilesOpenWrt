@@ -1,9 +1,0 @@
-a78d3a424f76dc12cb4efa296638198737796efb84db0215b458213b201ae6a7 *lede-17.01.7-ar71xx-generic-device-tl-mr3020-v1.manifest
-d5ab2ffd453f52f194d30d8519a4d216b4cf2f36faac25a884e02f8728523a43 *lede-17.01.7-ar71xx-generic-root.squashfs
-732912da36d35de931a32c3f88f9b944e8fcb4d53bd3324fd198c61247650f2a *lede-17.01.7-ar71xx-generic-tl-mr3020-v1-squashfs-factory.bin
-81aaf62d40477df336369124565a821b8ff9e951ec1f6f8c075ac9a1797daffd *lede-17.01.7-ar71xx-generic-tl-mr3020-v1-squashfs-sysupgrade.bin
-ec2002773b26a98f26ac0ac6f4793b55a4e69350a52e9c0bda03c1db9fa52d6d *lede-17.01.7-ar71xx-generic-uImage-lzma.bin
-73f43bf54c577d57671010bbee606f5ebc4ffeb82e5db79cc67034bda4e2f330 *lede-17.01.7-ar71xx-generic-vmlinux-lzma.elf
-76a6a51517ec4de1bcafb31285b9c90806883a900ccb4ff51ee599ecb32997ca *lede-17.01.7-ar71xx-generic-vmlinux.bin
-a5bfca6f377136c283b2c3fb7161cc9b3ec9c8fe31549a208f771569aa9df350 *lede-17.01.7-ar71xx-generic-vmlinux.elf
-ef108ee27ccf937f523a25c49028f9c8d035cf0a52a5835bd1637a70818bec89 *lede-17.01.7-ar71xx-generic-vmlinux.lzma
