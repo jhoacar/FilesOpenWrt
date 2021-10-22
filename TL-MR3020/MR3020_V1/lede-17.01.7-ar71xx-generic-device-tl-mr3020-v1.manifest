@@ -19,6 +19,7 @@ kmod-ath9k-common - 4.4.182+2017-01-31-15
 kmod-cfg80211 - 4.4.182+2017-01-31-15
 kmod-crypto-crc32c - 4.4.182-1
 kmod-crypto-hash - 4.4.182-1
+kmod-fs-exfat - 4.4.182+2017-01-03-8d291f525ce6d88fe0d8b11b86fd5c2e900401d3-1
 kmod-fs-ext4 - 4.4.182-1
 kmod-gpio-button-hotplug - 4.4.182-2
 kmod-ip6tables - 4.4.182-1
