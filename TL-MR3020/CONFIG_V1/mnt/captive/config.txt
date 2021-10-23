@@ -1,5 +1,0 @@
-{ 
-    "folder":"images",
-    "name": "img",
-    "extension":".jpg" 
-}
