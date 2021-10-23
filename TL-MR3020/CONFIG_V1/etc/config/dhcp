@@ -33,3 +33,7 @@ config odhcpd 'odhcpd'
 	option leasefile '/tmp/hosts/odhcpd'
 	option leasetrigger '/usr/sbin/odhcpd-update'
 
+config domain
+	option name 'www.captivefire.com'
+	option ip '192.168.1.1'
+	

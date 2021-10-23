@@ -1,5 +1,5 @@
 { 
     "folder":"images",
     "name": "img",
-    "extension":".webp" 
+    "extension":".jpg" 
 }
