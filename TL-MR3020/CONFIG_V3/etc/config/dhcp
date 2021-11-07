@@ -41,26 +41,6 @@ config odhcpd 'odhcpd'
 	option loglevel '4'
 
 config domain
-	option name 'clients3.google.com'
-	option ip '192.168.1.1'
-
-config domain
-	option name 'www.gstatic.com'
-	option ip '192.168.1.1'
-
-config domain
-	option name 'connectivitycheck.gstatic.com'
-	option ip '192.168.1.1'
-
-config domain
-	option name 'www.msftconnecttest.com'
-	option ip '192.168.1.1'
-
-config domain
-	option name 'www.apple.com'
-	option ip '192.168.1.1'
-
-config domain
 	option name 'menu.com'
 	option ip '192.168.1.1'
 
